@@ -7,6 +7,8 @@ using: HTML, CSS, BOOTSTRAP CSS, and JAVASCRIPT
 
 
 ============================
+
+
 Description:
 e-commerce with all cart, product catalog-related functionalities.
 
