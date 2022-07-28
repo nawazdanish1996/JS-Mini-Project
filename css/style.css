@@ -79,14 +79,18 @@ body {
 .header .search-form {
   position: absolute;
   top: 110%;
-  right: 2rem;
+  right: -110%;
   width: 50rem;
-  height: 4.5rem;
+  height: 5rem;
   border-radius: 0.5rem;
   overflow: hidden;
   display: flex;
   align-items: center;
   box-shadow: var(--box-shadow);
+}
+.header .search-form .active {
+  right: 2rem;
+  transition: 0.4s linear;
 }
 .header .search-form input {
   height: 100%;
@@ -105,4 +109,73 @@ body {
 }
 .header .search-form label:hover {
   color: var(--orange);
+}
+.header .shopping-cart {
+  position: absolute;
+  top: 110%;
+  right: -110%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  width: 35rem;
+  background: #fff;
+}
+.header .shopping-cart .box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  margin: 1rem 0;
+}
+.header .shopping-cart .box .fa-trash {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  cursor: pointer;
+  color: var(--light-color);
+  transform: translateY(-50%);
+}
+.header .shopping-cart .box .fa-trash:hover {
+  color: var(--orange);
+}
+.header .shopping-cart .box img {
+  height: 10rem;
+}
+.header .shopping-cart .box .content h3 {
+  color: var(--black);
+  font-size: 1.7rem;
+  padding-right: 1rem;
+}
+.header .shopping-cart .box .content span {
+  color: var(--light-color);
+  font-size: 1.6rem;
+}
+.header .shopping-cart .box .content .quantity {
+  padding-left: 1rem;
+}
+.header .shopping-cart .total {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  text-align: center;
+  color: var(--black);
+}
+.header .shopping-cart .btn {
+  display: block;
+  text-align: center;
+  margin: 1rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--black);
+  color: var(--black);
+}
+.btn:hover {
+  background: var(--orange);
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
