@@ -287,7 +287,7 @@ section{
     justify-content: center;
     padding-top: 17rem;
     padding-bottom: 10rem;
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(/image/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(image/banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
