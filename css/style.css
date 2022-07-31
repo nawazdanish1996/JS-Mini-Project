@@ -35,17 +35,18 @@ html{
 
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey; 
+    background: #111111;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: crimson;
+    background: var(--orange); 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: black; 
+    background: crimson;
 }
-
  /* Scroll Bar End */
+
 
 body{
     background: #16a085;
@@ -97,7 +98,7 @@ section{
     align-items: center;
     justify-content: space-between;
     padding:2rem 9%;
-    background: black;
+    background: #111111;
     box-shadow: var(--box-shadow);
 }
 
@@ -561,27 +562,27 @@ section{
     padding:.5rem 0;
 }
 
-.footer{
+.contacta{
     background: #fff;
 }
 
-.footer .box-container{
+.contacta .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
 }
 
-.footer .box-container .box h3{
+.contacta .box-container .box h3{
     font-size: 2.5rem;
     color:var(--black);
     padding:1rem 0;
 }
 
-.footer .box-container .box h3 img{
+.contacta .box-container .box h3 img{
     width: 30px;
 }
 
-.footer .box-container .box .links{
+.contacta .box-container .box .links{
     display: block;
     font-size: 1.5rem;
     color:var(--light-color);
@@ -589,7 +590,7 @@ section{
     text-transform: none;
 }
 
-.footer .box-container .box .links i{
+.contacta .box-container .box .links i{
     color:var(--orange);
     padding-right: .5rem;
 }
@@ -599,14 +600,14 @@ section{
 }
 
 
-.footer .box-container .box p{
+.contacta .box-container .box p{
     line-height: 1.8;
     font-size: 1.5rem;
     color:var(--light-color);
     padding:1rem 0;
 }
 
-.footer .box-container .box .share a{
+.contacta .box-container .box .share a{
     height:4rem;
     width:4rem;
     line-height:4rem;
@@ -618,12 +619,12 @@ section{
     text-align: center;
 }
 
-.footer .box-container .box .share a:hover{
+.contacta .box-container .box .share a:hover{
     background: var(--orange);
     color: #fff;
 }
 
-.footer .box-container .box .email{
+.contacta .box-container .box .email{
     width: 100%;
     margin:.7rem 0;
     padding:1rem;
@@ -634,10 +635,14 @@ section{
     text-transform: none;
 }
 
-.footer .box-container .box .payment-img{
+.contacta .box-container .box .payment-img{
     margin-top: 2rem;
     height: 3rem;
     display: block;
+}
+
+.footer{
+    background: #111111;
 }
 
 .footer .credit{
@@ -646,12 +651,12 @@ section{
     padding:1rem;
     padding-top: 2.5rem;
     font-size: 2rem;
-    color:var(--black);
+    color: #fff;
     border-top: var(--border);
 }
 
 .footer .credit span{
-    color:var(--orange);
+    color: #16a085;
 }
 
 
