@@ -307,7 +307,7 @@ section{
     justify-content: center;
     padding-top: 17rem;
     padding-bottom: 10rem;
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(image/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://github.com/nawazdanish1996/JS-Mini-Project/blob/master/image/banner.jpg?raw=true);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
