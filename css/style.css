@@ -56,13 +56,15 @@ section{
     padding:.8rem 3rem;
     font-size: 1.7rem;
     border-radius: .5rem;
-    border:.2rem solid var(--black);
-    color:var(--black);
+    border:.2rem solid #16a085;
+    color: #16a085;
     cursor: pointer;
     background: none;
+    overflow: none;
 }
 
 .btn:hover{
+    border: .2rem solid transparent;
     background: var(--orange);
     color:#fff;
 }
@@ -88,8 +90,8 @@ section{
     color: #fff;
 }
 
-.header .logo i{
-    color: #fff;
+.header .logo img{
+    width: 30px;
 }
 
 .header .navbar a{
@@ -283,9 +285,12 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
     padding-top: 17rem;
     padding-bottom: 10rem;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(/image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .home .content{
@@ -294,16 +299,17 @@ section{
 }
 
 .home .content h3{
-    color:var(--black);
+    color: #fff;
     font-size: 3rem;
 }
 
 .home .content h3 span{
-    color:var(--orange);
+    color: #16a085;
 }
 
 .home .content p{
-    color:var(--light-color);
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
     font-size: 1.7rem;
     padding:1rem 0;
     line-height: 1.8;
@@ -551,8 +557,8 @@ section{
     padding:1rem 0;
 }
 
-.footer .box-container .box h3 i{
-    color:var(--orange);
+.footer .box-container .box h3 img{
+    width: 30px;
 }
 
 .footer .box-container .box .links{
