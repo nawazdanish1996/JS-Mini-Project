@@ -28,7 +28,7 @@ html{
 }
 
 body{
-    background:#eee;
+    background: #16a085;
 }
 
 section{
@@ -76,7 +76,7 @@ section{
     align-items: center;
     justify-content: space-between;
     padding:2rem 9%;
-    background:#fff;
+    background: #16a085;
     box-shadow: var(--box-shadow);
 }
 
@@ -87,7 +87,7 @@ section{
 }
 
 .header .logo i{
-    color:var(--orange);
+    color: #fff;
 }
 
 .header .navbar a{
@@ -97,7 +97,7 @@ section{
 }
 
 .header .navbar a:hover{
-    color:var(--orange);
+    color: #fff;
 }
 
 .header .icons div{
@@ -277,9 +277,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../image/banner-bg.webp) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: #fff;
     padding-top: 17rem;
     padding-bottom: 10rem;
 }
@@ -622,15 +620,6 @@ section{
 .footer .credit span{
     color:var(--orange);
 }
-
-
-
-
-
-
-
-
-
 
 
 
