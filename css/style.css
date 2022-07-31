@@ -560,6 +560,7 @@ section{
     font-size: 1.5rem;
     color:var(--light-color);
     padding:1rem 0;
+    text-transform: none;
 }
 
 .footer .box-container .box .links i{
@@ -568,7 +569,7 @@ section{
 }
 
 .footer .box-container .box .links:hover i{
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 
 
